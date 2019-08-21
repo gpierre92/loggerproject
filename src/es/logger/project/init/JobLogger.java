@@ -195,6 +195,7 @@ public class JobLogger {
 
 	}
 
+	//Created internally, for sample purpose. Its necesary create a "MyException" class - MyException.java
 	class MyException extends Exception {
 
 		private static final long serialVersionUID = 1L;
