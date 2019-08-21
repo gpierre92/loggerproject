@@ -7,7 +7,7 @@
 	<groupId>com.pe.logger.project</groupId>
 	<artifactId>pe-logger-project</artifactId>
 	<version>1.0.0-SNAPSHOT</version>
-	<name>pe-oca</name>
+	<name>logger-project</name>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -17,14 +17,28 @@
 	</properties>
 
 	<dependencies>
-		<!-- https://mvnrepository.com/artifact/junit/junit -->
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
 			<version>4.12</version>
 			<scope>test</scope>
 		</dependency>
-
+		<dependency>
+			<groupId>log4j</groupId>
+			<artifactId>log4j</artifactId>
+			<version>1.2.17</version>
+		</dependency>
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<version>1.18.6</version>
+		</dependency>
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+<!-- 			<version>8.0.16</version> -->
+<version>5.1.39</version>
+		</dependency>
 	</dependencies>
 
 </project>
